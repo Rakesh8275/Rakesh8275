@@ -1,0 +1,55 @@
+Table 
+Employee management system
+
+Employee Table
+    emp_id - int(primary key) 
+    Name-varchar(255)
+    Email-varchar(255)
+    Phone-int(20)
+    Adar-int(30)
+    gender- int(1)
+    DOB-Date
+    age - int
+    created_at - Date
+
+Employee time period
+    etp_id - int 
+    emp_id - orgien key
+    join_date - Date
+    relive_date -Date
+    created_at
+
+Employee Salary
+    es_id -int(primary key)
+    emp_id - orgien key
+    Salary - varchar 
+    created_at - Date
+
+Department Table
+    dept_id-int(primary key)
+    Department_name - (varchar)
+    created_at - Date
+
+Department_Head
+    head_id - int(primary key)
+    dept_id - orgien key
+    emp_id - orgien key
+    created_at - Date 
+
+Employee_department
+    ed_id - int(primary key)
+    emp_id - rogien key
+    dept_id - orgien key
+    created_at - Date    
+
+work experience 
+    we_id - int(primary key)
+    emp_id - orgien key
+    rom_date - Date
+    to_date - Date
+    created_at - Date
+
+educational_details
+    edu_id -int(primary key)
+    emp_id - orgien key
+    education - varchar(255)
